@@ -57,14 +57,14 @@
             this.lbNotesList.ItemHeight = 16;
             this.lbNotesList.Location = new System.Drawing.Point(12, 34);
             this.lbNotesList.Name = "lbNotesList";
-            this.lbNotesList.Size = new System.Drawing.Size(151, 228);
+            this.lbNotesList.Size = new System.Drawing.Size(151, 244);
             this.lbNotesList.TabIndex = 1;
             this.lbNotesList.SelectedIndexChanged += new System.EventHandler(this.lbNotesList_SelectedIndexChanged);
             // 
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(12, 296);
+            this.btnAdd.Location = new System.Drawing.Point(12, 309);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(151, 26);
             this.btnAdd.TabIndex = 2;
@@ -75,7 +75,7 @@
             // btnRemove
             // 
             this.btnRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemove.Location = new System.Drawing.Point(12, 328);
+            this.btnRemove.Location = new System.Drawing.Point(12, 341);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(151, 26);
             this.btnRemove.TabIndex = 3;
@@ -107,7 +107,7 @@
             // 
             this.lblAddNote.AutoSize = true;
             this.lblAddNote.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddNote.Location = new System.Drawing.Point(169, 281);
+            this.lblAddNote.Location = new System.Drawing.Point(169, 291);
             this.lblAddNote.Name = "lblAddNote";
             this.lblAddNote.Size = new System.Drawing.Size(91, 17);
             this.lblAddNote.TabIndex = 6;
@@ -115,7 +115,7 @@
             // 
             // txtNewNote
             // 
-            this.txtNewNote.Location = new System.Drawing.Point(172, 302);
+            this.txtNewNote.Location = new System.Drawing.Point(172, 311);
             this.txtNewNote.Name = "txtNewNote";
             this.txtNewNote.Size = new System.Drawing.Size(227, 22);
             this.txtNewNote.TabIndex = 7;
@@ -123,7 +123,7 @@
             // btnLaminate
             // 
             this.btnLaminate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLaminate.Location = new System.Drawing.Point(252, 328);
+            this.btnLaminate.Location = new System.Drawing.Point(252, 337);
             this.btnLaminate.Name = "btnLaminate";
             this.btnLaminate.Size = new System.Drawing.Size(187, 26);
             this.btnLaminate.TabIndex = 8;
@@ -134,7 +134,7 @@
             // btnEnterNote
             // 
             this.btnEnterNote.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnterNote.Location = new System.Drawing.Point(405, 300);
+            this.btnEnterNote.Location = new System.Drawing.Point(405, 309);
             this.btnEnterNote.Name = "btnEnterNote";
             this.btnEnterNote.Size = new System.Drawing.Size(34, 26);
             this.btnEnterNote.TabIndex = 9;
@@ -144,7 +144,7 @@
             // 
             // txtNewNotesList
             // 
-            this.txtNewNotesList.Location = new System.Drawing.Point(12, 268);
+            this.txtNewNotesList.Location = new System.Drawing.Point(12, 281);
             this.txtNewNotesList.Name = "txtNewNotesList";
             this.txtNewNotesList.Size = new System.Drawing.Size(151, 22);
             this.txtNewNotesList.TabIndex = 10;
@@ -153,7 +153,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(451, 372);
+            this.ClientSize = new System.Drawing.Size(451, 375);
             this.Controls.Add(this.txtNewNotesList);
             this.Controls.Add(this.btnEnterNote);
             this.Controls.Add(this.btnLaminate);

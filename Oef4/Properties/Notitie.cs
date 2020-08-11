@@ -20,15 +20,6 @@ namespace NotitieBoekje
             Name = name;
 
         }
-        public string GetOpschrift()
-        {
-            return Note;
-
-        }
-        public void SetOpschrift(string tekst)
-        {
-            Note = tekst;
-        }
         public void Bijschrijven(string bijschrift)
         {
             NotesList.Add(bijschrift);
