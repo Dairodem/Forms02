@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms02", "Forms02\Forms02.csproj", "{A04AED7E-FF0D-41AE-90E3-245531F8C019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oef2", "Oef2\Oef2.csproj", "{FA78E970-2EB1-4D76-97DE-9F43A2C846EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A04AED7E-FF0D-41AE-90E3-245531F8C019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04AED7E-FF0D-41AE-90E3-245531F8C019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04AED7E-FF0D-41AE-90E3-245531F8C019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04AED7E-FF0D-41AE-90E3-245531F8C019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA78E970-2EB1-4D76-97DE-9F43A2C846EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA78E970-2EB1-4D76-97DE-9F43A2C846EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA78E970-2EB1-4D76-97DE-9F43A2C846EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA78E970-2EB1-4D76-97DE-9F43A2C846EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7B670A5-7EE9-4821-B8AE-921CA7D8AEE8}
+	EndGlobalSection
+EndGlobal
