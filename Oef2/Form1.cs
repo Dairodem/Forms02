@@ -19,11 +19,17 @@ namespace Oef2
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
+            var checkProvince = gbProvincie.Controls.OfType<RadioButton>()
+                                         .FirstOrDefault(r => r.Checked);
+
+            var checkSex = gbSex.Controls.OfType<RadioButton>()
+                                         .FirstOrDefault(r => r.Checked);
+
             MessageBox.Show($"Naam: {txtNaam.Text},\n" +
-                            $"Adres: {txtAdres.Text}.\n " +
+                            $"Adres: {txtAdres.Text}.\n" +
                             $"Leeftijd: {numAge.Value}.\n" +
-                            $"Geslacht: \n" +
-                            $"Provincie: ");
+                            $"Geslacht: {checkSex.Text}\n" +
+                            $"Provincie: {checkProvince.Text}");
         }
     }
 }

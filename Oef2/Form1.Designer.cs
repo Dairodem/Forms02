@@ -52,18 +52,18 @@
             // 
             // txtNaam
             // 
-            this.txtNaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNaam.Location = new System.Drawing.Point(12, 29);
             this.txtNaam.Name = "txtNaam";
-            this.txtNaam.Size = new System.Drawing.Size(263, 30);
+            this.txtNaam.Size = new System.Drawing.Size(263, 26);
             this.txtNaam.TabIndex = 0;
             // 
             // txtAdres
             // 
-            this.txtAdres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAdres.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAdres.Location = new System.Drawing.Point(12, 91);
             this.txtAdres.Name = "txtAdres";
-            this.txtAdres.Size = new System.Drawing.Size(263, 30);
+            this.txtAdres.Size = new System.Drawing.Size(263, 26);
             this.txtAdres.TabIndex = 1;
             // 
             // gbSex
@@ -94,6 +94,7 @@
             // rbMale
             // 
             this.rbMale.AutoSize = true;
+            this.rbMale.Checked = true;
             this.rbMale.Location = new System.Drawing.Point(9, 39);
             this.rbMale.Name = "rbMale";
             this.rbMale.Size = new System.Drawing.Size(56, 21);
@@ -142,6 +143,7 @@
             // rbWvl
             // 
             this.rbWvl.AutoSize = true;
+            this.rbWvl.Checked = true;
             this.rbWvl.Location = new System.Drawing.Point(6, 21);
             this.rbWvl.Name = "rbWvl";
             this.rbWvl.Size = new System.Drawing.Size(139, 21);
@@ -230,7 +232,7 @@
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(260, 41);
             this.btnConfirm.TabIndex = 8;
-            this.btnConfirm.Text = "Bevestigen";
+            this.btnConfirm.Text = "Indienen";
             this.btnConfirm.UseVisualStyleBackColor = true;
             this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
